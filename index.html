@@ -13,38 +13,38 @@
 </head>
 <body>
     
-    <div class="card">
-        <div class="search">
-            <input type="text" placeholder="enter city name" spellcheck="false">
-            <button><svg class="search-svg" width="24" height="24">
-              <use href="./img/sprite.svg#icon-search"></use>
+<div class="card">
+    <div class="search">
+        <input type="text" placeholder="Введіть назву міста" spellcheck="false">
+        <button><svg class="search-svg" width="24" height="24">
+                <use href="./img/sprite.svg#icon-search"></use>
             </svg></button>
-        </div>
+    </div>
 
-        <div class="weather">
-            <img src="./img/drizzle.png">
-            <h1 class="temp">22°C</h1>
-            <h2 class="city">Nikopol</h2>
+    <div class="weather">
+        <img src="./img/clear.png" alt="Іконка погоди">
+        <h1 class="temp">--°C</h1>
+        <h2 class="city">Місто</h2>
 
-            <div class="details">
-                <div class="col">
-                    <img src="./img/humidity.png" >
+        <div class="details">
+            <div class="col">
+                <img src="./img/humidity.png">
                 <div>
-                    <p class="humidity">50%</p>
-                    <p>Humidity</p>
-                </div>
-                </div>
-                <div class="col">
-                    <img src="./img/wind.png">
-                    <div>
-                        <p class="wind">15 km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
+                    <p class="humidity">--%</p>
+                    <p>Вологість</p>
                 </div>
             </div>
-            
+            <div class="col">
+                <img src="./img/wind.png">
+                <div>
+                    <p class="wind">-- км/год</p>
+                    <p>Швидкість вітру</p>
+                </div>
+            </div>
         </div>
-
     </div>
+</div>
+
+<script type="module" src="./script.js"></script>
 </body>
 </html>
